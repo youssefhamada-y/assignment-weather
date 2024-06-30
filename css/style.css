@@ -1,0 +1,145 @@
+.color {
+    background-color: #1E202B;
+}
+
+.iconwidth {
+    width: 60px;
+    height: 40px;
+}
+
+.textgrey {
+    color: #a0a0a3 !important;
+}
+
+.search {
+    background-color: #262936 !important;
+
+}
+
+.pill {
+    width: 120px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.pill:hover {
+    border: #0C85CD solid 2px;
+    color: #0C85CD !important;
+}
+
+.fa-cloudflare {
+    font-size: 50px;
+}
+
+.image {
+    background-color: #1E202B;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+
+
+}
+
+.backgroundgrey {
+    background-color: #1E202B !important;
+}
+
+.input {
+    background-color: #1E202B !important;
+}
+
+.btn {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 95px;
+    bottom: 0px;
+    right: 110px;
+    border: #0C85CD solid 2px;
+    color: white !important;
+    background-color: #0C85CD;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.form-control {
+    position: relative;
+    margin: 90px;
+}
+
+.card-header {
+    background-color: #1E202B;
+}
+
+.card-body {
+    background-color: #2D303D;
+}
+
+.ninty {
+    font-size: 90px;
+}
+
+.grey {
+    background-color: #262935;
+}
+
+.move {
+    position: relative;
+    right: 25px;
+}
+
+.moveright {
+    position: relative;
+    right: 50px;
+}
+
+.movelift {
+    position: relative;
+    left: 20px;
+}
+
+.marginright {
+    position: absolute;
+    right: 202px;
+    top: 90px;
+    width: 110px;
+}
+
+.bggrey {
+    border: #1E202B solid 2px;
+    background-color: #1E202B;
+    color: #009ad8;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+
+.bggrey:hover {
+    border: #1E202B solid 2px;
+    background-color: #009AD8;
+    color: white
+}
+
+.colors {
+    background-color: #262936;
+}
+
+.position-absolute {
+    bottom: 40px;
+}

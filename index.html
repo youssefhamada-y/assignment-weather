@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class=" ">
+        <nav class="navbar navbar-expand-lg color p-4">
+            <div class="container">
+                <a class="navbar-brand fs-1 d-flex flex-row justify-content-center align-items-center" href="#">
+                    <img class="iconwidth ms-2" src="./images/logo@2x.png" alt="icon">
+                    <div class="d-flex flex-column m-2 ">
+                        <h6 class="fs-6 text-white">Weather</h6>
+                        <h6 class="fs-6 text-white textgrey">tagline goes here</h6>
+                    </div>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white text-center pill" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white pill text-center" href="#">News</a>
+                        <a class="nav-link text-white pill text-center" href="#">Live Cameras</a>
+                        <a class="nav-link text-white pill text-center" href="#">Photos</a>
+                        <a class="nav-link text-white pill text-center" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <section class=" overflow-hidden backgroundgrey image ">
+        <div class="form-floating container d-flex flex-row ">
+            <input type="text" class="form-control rounded-pill search shadow-none py-3 text-white  " id="floatingInput"
+                placeholder="find you location">
+            <button type="button" class="btn btn-primary text-center ">Find</button>
+        </div>
+        <div class="row movelift  ">
+            <div class="col-md-4 col-sm-12  ">
+                <div class="inner pb-lg-4 ">
+                    <div class="card border border-secondary w-100">
+                        <div class="card-header d-flex flex-row justify-content-between">
+                            <h6 class="text-white " id="day1">thursday</h6>
+                            <h6 class="text-white" id="date1">27june</h6>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">cairo</h5>
+                            <div class="d-flex flex-row">
+                                <p class="text-white ninty " id="degree">37 <sup class="text-white ninty">o</sup> C</p>
+                                <img  id="icon" src="" alt="">
+                            </div>
+                            <h6 class="text-white sunny ">
+                                sunny
+                            </h6>
+                            <table>
+                                <tr>
+                                    <td class=""><i class="fa-solid fa-umbrella fs-4"></i></td>
+                                    <td class="text-white wind"> 20%</td>
+                                    <td class="ps-3"><i class="fa-solid fa-wind fs-4"></i></td>
+                                    <td class="text-white speed">18km/h</td>
+                                    <td class="ps-3"><i class="fa-regular fa-compass fs-4"></i></td>
+                                    <td class="text-white winddir">east</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12  ">
+                <div class="inner move">
+                    <div class="card border border-secondary ">
+                        <div class="card-header d-flex flex-row justify-content-between">
+                            <h6 class="text-white m-auto " id="day2">friday</h6>
+                        </div>
+                        <div class="card-body grey">
+                            <div class="d-flex flex-column">
+                                <img class="w-25 m-auto mt-5" id="img2" src="./images/sun-icon-vector.jpg" alt="">
+                                <p class="text-white text-center   " id="maxtemp">37 <sup class="text-white ">o</sup> C
+                                </p>
+                                <p class="text-white text-center  " id="mintemp">37 <sup class="text-white ">o</sup> C
+                                </p>
+                            </div>
+                            <h6 class="text-white text-center " id="condition">
+                                sunny
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12   ">
+                <div class="inner moveright">
+                    <div class="card border border-secondary w-100">
+                        <div class="card-header d-flex flex-row justify-content-between">
+                            <h6 class="text-white m-auto " id="day3">friday</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-column">
+                                <img class="w-25 m-auto mt-5" id="imagecondition" src="./images/sun-icon-vector.jpg" alt="">
+                                <p class="text-white text-center  " id="degree3">37 <sup class="text-white ">o</sup> C</p>
+                                <p class="text-white text-center  " id="mint">22 <sup class="text-white ">o</sup> C</p>
+                            </div>
+                            <h6 class="text-white text-center" id="conditioncountry">
+                                sunny
+                            </h6>
+    
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    <footer class="colors position-relative ">
+        <div class="d-lg-flex flex-lg-row d-sm-flex flex-sm-column">
+            <div class="form-floating container d-flex flex-row ">
+                <input type="text" class="form-control rounded-pill search shadow-none py-3 text-white  " id="floatingInput"
+                    placeholder="find you location">
+                <button type="button" class="btn btn-primary text-center ">Find</button>
+            </div>
+            <div class=" text-center w-25 m-lg-auto ">
+                <span><i class="fa-brands fa-facebook rounded-circle fs-3  p-2 bggrey"></i></span>
+                <span><i class="fa-brands fa-twitter rounded-circle fs-3 p-2 bggrey"></i></span>
+                <span><i class="fa-brands fa-google-plus-g  rounded-circle fs-3 p-2 bggrey"></i></span>
+                <span><i class="fa-brands fa-pinterest rounded-circle fs-3 p-2 bggrey"></i></span>
+            </div>
+        </div>
+        <div class=" w-50 position-absolute  text-center">
+            <p class="text-white">
+                Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
