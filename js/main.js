@@ -4,7 +4,8 @@ var weather;
 
 
 async function getapi(country) {
-    var res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6a1d00ee3d9e4201bac105045242906&q=${country}&days=3`)
+    var res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6a1d00ee3d9e4201bac105045242906&q=${country}&days=3&aqi=no&alerts=no
+`)
     var finalres = await res.json()
     return finalres
 
